@@ -154,7 +154,7 @@ CREATE TABLE `locations_alternatives` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 CREATE TABLE `locations_change` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `tiploc` char(7) NOT NULL,
   `tiploc_instance` char(1) NOT NULL,
   `category` char(2) NOT NULL,
