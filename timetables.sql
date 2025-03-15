@@ -161,7 +161,7 @@ CREATE TABLE `locations_change` (
   `train_identity` char(4) NOT NULL,
   `headcode` char(4) NOT NULL,
   `service_code` char(8) NOT NULL,
-  `portion_id` enum('1','2','4','8','Z') NOT NULL,
+  `portion_id` char(1) NOT NULL DEFAULT '',
   `power_type` enum('D','DEM','DMU','E','ED','EML','EMU','EPU','HST','LDS') NOT NULL,
   `timing_load` char(4) NOT NULL,
   `speed` char(3) NOT NULL,
